@@ -1,0 +1,13 @@
+.about
+{
+    p
+    {
+        font-size: 1.1rem;
+    }
+
+    p > a
+    {
+        border-bottom: 2px solid $cyan;
+    }
+
+}

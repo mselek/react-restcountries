@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* color */
+$dark-gray: #16191c;
+$cyan :#20c997;
+
+/* fonts */
+$normal: 400;
+$bold: 700;
+
+/* transitions */
+$lin-3: linear .3s;
+
+*, ::before, ::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root
+{
+    padding: 0 10px;
+}
+
+body
+{
+    background-color: $dark-gray;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: $normal;
+}
+
+a, a:visited
+{
+    color: white;
+    text-decoration: none;
+    transition: color $lin-3;
+}
+
+a:hover
+{
+    color: $cyan;
+}
+
+ul
+{
+    list-style: none;
+}
